@@ -13,4 +13,4 @@ echo 10 seconds have passed. Starting removal of the VM resources and cleanup!
 echo
 vagrant destroy -f ; rm -rf .vagrant ; rm -rf .git ; vagrant global-status
 echo
-echo Done Succesfully!
+echo Done Successfully!
