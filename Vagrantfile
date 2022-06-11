@@ -12,7 +12,6 @@ Vagrant.configure("2") do |config|
 
 config.vm.define "master" do |vb|
   vb.vm.box = IMAGE_NAME
-  vb.vm.network "public_network", bridge: "enp0s31f6", ip: "192.168.88.110"
   vb.vm.hostname = "k8s-master"
 end
 
@@ -24,7 +23,6 @@ end
 
 config.vm.define "slave" do |vb|
   vb.vm.box = IMAGE_NAME
-  vb.vm.network "public_network", bridge: "enp0s31f6", ip: "192.168.88.120"
   vb.vm.hostname = "k8s-slave"
 end
 
