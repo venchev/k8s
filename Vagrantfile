@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "alvistack/kubernetes-1.24"
   config.vm.hostname = "k8s-master"
   config.vm.provider "virtualbox" do |vb|
-    vb.memory = "8192"
+    vb.memory = "16384"
     vb.cpus = 8
     vb.name = "K8S-master"
 end
