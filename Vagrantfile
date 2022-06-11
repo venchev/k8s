@@ -12,7 +12,7 @@ end
 
  config.vm.provision "shell", inline: <<-SHELL
      sudo apt-get update && sudo apt-get upgrade -y
-     sudo apt-get install -y vim nano mc lynx git nmap wget curl net-tools htop
+     sudo apt-get install -y vim nano mc lynx git nmap wget curl net-tools htop snapd snap
  SHELL
 
 end
