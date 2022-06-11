@@ -1,3 +1,3 @@
 # k8s
 
-Provisioning of basic Vagrantfile with two nodes, prepared for installation of K8S. Ubuntu 22.04 LTS
+Ubuntu 22.04 LTS && Kubernetes 1.24 && Snapshot
