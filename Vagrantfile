@@ -36,4 +36,5 @@ end
      sudo apt-get install -y vim nano mc lynx git nmap wget curl net-tools htop
  SHELL
 
+ end
 end
